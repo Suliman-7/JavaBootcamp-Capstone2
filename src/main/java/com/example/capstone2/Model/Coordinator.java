@@ -37,7 +37,7 @@ public class Coordinator {
     // similar to salary but per event not monthly !
     @NotNull(message = "Honorarium should be not empty")
     @Column(columnDefinition = "double not null")
-    private double Honorarium;
+    private double honorarium;
 
     @NotNull(message = "assigned Events should be not empty")
     @Column(columnDefinition = "int not null")
