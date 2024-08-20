@@ -190,7 +190,7 @@ public class UserService {
             throw new ApiException("User not found");
         }
 
-        if(userId != u.getId()){
+        if(userId != t.getUserId()){
             throw new ApiException("you cannot cancel the booking");
         }
 
